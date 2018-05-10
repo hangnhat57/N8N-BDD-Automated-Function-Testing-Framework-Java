@@ -3,21 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="6f5a31c3-bc03-4787-8ce2-55bb4f372586" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/Docs/allclasses-frame.html" afterPath="$PROJECT_DIR$/Docs/allclasses-frame.html" />
-      <change beforePath="$PROJECT_DIR$/Docs/allclasses-noframe.html" afterPath="$PROJECT_DIR$/Docs/allclasses-noframe.html" />
-      <change beforePath="$PROJECT_DIR$/Docs/constant-values.html" afterPath="$PROJECT_DIR$/Docs/constant-values.html" />
-      <change beforePath="$PROJECT_DIR$/Docs/deprecated-list.html" afterPath="$PROJECT_DIR$/Docs/deprecated-list.html" />
-      <change beforePath="$PROJECT_DIR$/Docs/help-doc.html" afterPath="$PROJECT_DIR$/Docs/help-doc.html" />
-      <change beforePath="$PROJECT_DIR$/Docs/index-files/index-1.html" afterPath="$PROJECT_DIR$/Docs/index-files/index-1.html" />
-      <change beforePath="$PROJECT_DIR$/Docs/index-files/index-2.html" afterPath="$PROJECT_DIR$/Docs/index-files/index-2.html" />
-      <change beforePath="$PROJECT_DIR$/Docs/index-files/index-3.html" afterPath="$PROJECT_DIR$/Docs/index-files/index-3.html" />
-      <change beforePath="$PROJECT_DIR$/Docs/index-files/index-4.html" afterPath="$PROJECT_DIR$/Docs/index-files/index-4.html" />
-      <change beforePath="$PROJECT_DIR$/Docs/index.html" afterPath="$PROJECT_DIR$/Docs/index.html" />
-      <change beforePath="$PROJECT_DIR$/Docs/overview-frame.html" afterPath="$PROJECT_DIR$/Docs/overview-frame.html" />
-      <change beforePath="$PROJECT_DIR$/Docs/overview-summary.html" afterPath="$PROJECT_DIR$/Docs/overview-summary.html" />
-      <change beforePath="$PROJECT_DIR$/Docs/overview-tree.html" afterPath="$PROJECT_DIR$/Docs/overview-tree.html" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/slm/Actions.java" afterPath="$PROJECT_DIR$/src/main/java/slm/Actions.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/slm/Functions.java" afterPath="$PROJECT_DIR$/src/main/java/slm/Functions.java" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -30,11 +16,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="25" lean-forward="false" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+            <state relative-caret-position="313">
+              <caret line="67" column="21" lean-forward="false" selection-start-line="67" selection-start-column="21" selection-end-line="67" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -64,7 +50,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Actions.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Actions.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/slm/Actions.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="915">
@@ -100,11 +86,11 @@
         <option value="$PROJECT_DIR$/src/main/java/selenium/SeUtils.java" />
         <option value="$PROJECT_DIR$/src/test/java/TestString.java" />
         <option value="$PROJECT_DIR$/src/main/java/common/StringUtils.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/selenium/Functions.java" />
         <option value="$PROJECT_DIR$/src/main/java/sls/Functions.java" />
         <option value="$PROJECT_DIR$/src/main/java/slm/Functions.java" />
         <option value="$PROJECT_DIR$/src/main/java/slm/Actions.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -121,8 +107,9 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="23" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1751" />
+    <option name="y" value="215" />
     <option name="width" value="1440" />
     <option name="height" value="810" />
   </component>
@@ -332,10 +319,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8127000" />
+    <option name="totallyTimeSpent" value="9531000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="810" extended-state="6" />
+    <frame x="1751" y="215" width="1440" height="810" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -455,14 +442,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="25" lean-forward="false" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/slm/Functions.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
@@ -480,6 +459,14 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="67" column="21" lean-forward="false" selection-start-line="67" selection-start-column="21" selection-end-line="67" selection-end-column="21" />
+          <folding />
         </state>
       </provider>
     </entry>
