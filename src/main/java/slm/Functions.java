@@ -1,22 +1,29 @@
-package selenium;
+package slm;
 
-import org.openqa.selenium.By;
-import org.openqa.selenium.StaleElementReferenceException;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.*;
+import org.openqa.selenium.interactions.internal.Coordinates;
+import org.openqa.selenium.interactions.internal.Locatable;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+
 
 public class Functions {
 
 
-    public static void _SelectOption(WebDriver driver,String xpath, String option){
-        StringBuilder str = new StringBuilder(xpath);
-        xpath = str.insert(xpath.length() - 3,option).toString();
-        _WaitFor(driver,By.xpath(xpath));
-        driver.findElement(By.xpath(xpath)).click();
+
+    public boolean isVisible(WebDriver driver,WebElement element){
+        try {
+            _WaitFor(driver,element);
+            return true;
+        }catch(TimeoutException e){
+            return false;
+        }
     }
 
+    public static void _WaitForAlert(WebDriver driver){
+        WebDriverWait wait = new WebDriverWait(driver, 30);
+        wait.until(ExpectedConditions.alertIsPresent());
+    }
 
     public static void _WaitUntillURL(WebDriver driver,String expect){
         WebDriverWait wait = new WebDriverWait(driver, 30);
@@ -33,9 +40,11 @@ public class Functions {
                     .until(ExpectedConditions.visibilityOf(element));
         }
     }
-    public static void _WaitFor(WebDriver driver,By element){
+
+    public static void _WaitFor(WebDriver driver,String xpath){
         WebDriverWait wait = new WebDriverWait(driver, 30);
         wait.ignoring(StaleElementReferenceException.class)
-                .until(ExpectedConditions.visibilityOfElementLocated(element));
+                .until(ExpectedConditions.visibilityOfElementLocated(By.xpath(xpath)));
     }
+
 }
