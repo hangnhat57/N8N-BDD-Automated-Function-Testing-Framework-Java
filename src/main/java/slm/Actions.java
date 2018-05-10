@@ -7,7 +7,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import static cmn.StringUtils._ConvertXpath;
-import static cmn.System.GetTimeOut;
+import static cmn.SysConfig.GetTimeOut;
 import static slm.Functions._WaitForAlert;
 import static slm.Functions.*;
 

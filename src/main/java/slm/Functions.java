@@ -6,7 +6,7 @@ import org.openqa.selenium.interactions.internal.Locatable;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-import static cmn.System.GetTimeOut;
+import static cmn.SysConfig.GetTimeOut;
 
 
 public class Functions {

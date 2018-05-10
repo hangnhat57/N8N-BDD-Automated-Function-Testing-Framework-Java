@@ -4,7 +4,7 @@ import com.github.shyiko.dotenv.DotEnv;
 
 import java.util.Map;
 
-public class System {
+public class SysConfig {
     public static String Env(String keyword){
         Map<String, String> dot = DotEnv.load();
         return dot.get(keyword);
@@ -16,4 +16,6 @@ public class System {
         }
         else{ return 30;}
     }
+
+
 }
