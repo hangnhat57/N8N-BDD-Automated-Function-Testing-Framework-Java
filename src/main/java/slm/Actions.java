@@ -8,44 +8,44 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import static cmn.StringUtils._ConvertXpath;
 import static slm.Functions._WaitForAlert;
-import static slm.Functions._WaitForElement;
-import static slm.Functions._WaitForLocation;
+import static slm.Functions.*;
+
 
 public class Actions {
 
     public void _Hover(WebDriver driver,WebElement element){
-        _WaitForElement(driver,element);
+        _WaitFor(driver,element);
         org.openqa.selenium.interactions.Actions act =
                 new org.openqa.selenium.interactions.Actions(driver);
         act.moveToElement(element).build().perform();
 
     }
     public void _MoveToThenClick(WebDriver driver,WebElement element){
-        _WaitForElement(driver,element);
+        _WaitFor(driver,element);
         Coordinates coordinate = ((Locatable)element).getCoordinates();
         coordinate.onPage();
         coordinate.inViewPort();
         element.click();
 
     }
-    public static void _ClickElement(WebDriver driver, WebElement element){
-        _WaitForElement(driver,element);
+    public static void _Click(WebDriver driver, WebElement element){
+        _WaitFor(driver,element);
         element.click();
     }
 
-    public static void _ClickLocation(WebDriver driver,String xpath){
-        _WaitForLocation(driver,xpath);
+    public static void _Click(WebDriver driver,String xpath){
+        _WaitFor(driver,xpath);
         driver.findElement(By.xpath(xpath)).click();
     }
 
     public static void _Sendkey(WebDriver driver,WebElement element,String keyword){
-        _WaitForElement(driver,element);
+        _WaitFor(driver,element);
         element.sendKeys(keyword);
     }
 
     public static void _SelectOption(WebDriver driver,String xpath, String option){
         xpath = _ConvertXpath(xpath,option);
-        _ClickLocation(driver,xpath);
+        _Click(driver,xpath);
     }
     public static void _AlertHandle(WebDriver driver,String ok_or_cancel){
         _WaitForAlert(driver);
@@ -59,7 +59,7 @@ public class Actions {
         }
     }
     public void _JSClicker(WebDriver driver,WebElement element){
-        _WaitForElement(driver,element);
+        _WaitFor(driver,element);
         JavascriptExecutor executor = (JavascriptExecutor)driver;
         executor.executeScript("arguments[0].click();", element);
     }

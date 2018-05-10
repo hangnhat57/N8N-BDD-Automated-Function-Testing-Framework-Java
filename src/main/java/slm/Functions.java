@@ -13,7 +13,7 @@ public class Functions {
 
     public boolean isVisible(WebDriver driver,WebElement element){
         try {
-            _WaitForElement(driver,element);
+            _WaitFor(driver,element);
             return true;
         }catch(TimeoutException e){
             return false;
@@ -30,7 +30,7 @@ public class Functions {
         wait.until(ExpectedConditions.urlContains(expect));
     }
 
-    public static void _WaitForElement(WebDriver driver,WebElement element){
+    public static void _WaitFor(WebDriver driver,WebElement element){
         WebDriverWait wait = new WebDriverWait(driver, 30);
         try {
             wait.ignoring(StaleElementReferenceException.class)
@@ -41,7 +41,7 @@ public class Functions {
         }
     }
 
-    public static void _WaitForLocation(WebDriver driver,String xpath){
+    public static void _WaitFor(WebDriver driver,String xpath){
         WebDriverWait wait = new WebDriverWait(driver, 30);
         wait.ignoring(StaleElementReferenceException.class)
                 .until(ExpectedConditions.visibilityOfElementLocated(By.xpath(xpath)));
