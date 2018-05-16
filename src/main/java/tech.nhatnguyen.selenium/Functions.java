@@ -1,4 +1,4 @@
-package slm;
+package tech.nhatnguyen.selenium;
 
 import org.openqa.selenium.*;
 import org.openqa.selenium.interactions.internal.Coordinates;
@@ -6,7 +6,7 @@ import org.openqa.selenium.interactions.internal.Locatable;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-import static cmn.SysConfig.GetTimeOut;
+import static tech.nhatnguyen.common.SysConfig.GetTimeOut;
 
 
 public class Functions {
