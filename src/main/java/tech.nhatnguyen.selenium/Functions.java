@@ -13,7 +13,7 @@ import static tech.nhatnguyen.common.SysConfig.GetTimeOut;
 public class Functions extends Base{
 
 
-    public boolean isVisible(WebElement element){
+    public static boolean isVisible(WebElement element){
         try {
             _WaitFor(element);
             return true;

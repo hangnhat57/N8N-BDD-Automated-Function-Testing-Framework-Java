@@ -10,7 +10,7 @@ public class ReadProperties {
     public ReadProperties(String propFileName) {
         this.propFile = System.getProperty("user.dir") +"/"+ propFileName;
     }
-    
+
     public String getValue(String key){
         try{
             java.util.Properties prop = new java.util.Properties();
