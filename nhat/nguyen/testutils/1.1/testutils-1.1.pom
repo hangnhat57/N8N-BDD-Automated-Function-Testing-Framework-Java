@@ -63,6 +63,11 @@
 
     <dependencies>
         <dependency>
+            <groupId>ru.yandex.qatools.allure</groupId>
+            <artifactId>allure-cucumber-jvm-adaptor</artifactId>
+            <version>1.6.4</version>
+        </dependency>
+        <dependency>
             <groupId>com.github.shyiko.dotenv</groupId>
             <artifactId>dotenv</artifactId>
             <version>0.1.1</version>
