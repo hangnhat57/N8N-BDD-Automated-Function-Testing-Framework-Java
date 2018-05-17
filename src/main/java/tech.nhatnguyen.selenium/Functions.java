@@ -5,34 +5,34 @@ import org.openqa.selenium.interactions.internal.Coordinates;
 import org.openqa.selenium.interactions.internal.Locatable;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import tech.nhatnguyen.automated.Base;
 
 import static tech.nhatnguyen.common.SysConfig.GetTimeOut;
 
 
-public class Functions {
+public class Functions extends Base{
 
 
-
-    public boolean isVisible(WebDriver driver,WebElement element){
+    public boolean isVisible(WebElement element){
         try {
-            _WaitFor(driver,element);
+            _WaitFor(element);
             return true;
         }catch(TimeoutException e){
             return false;
         }
     }
 
-    public static void _WaitForAlert(WebDriver driver){
+    public static void _WaitForAlert(){
         WebDriverWait wait = new WebDriverWait(driver, GetTimeOut());
         wait.until(ExpectedConditions.alertIsPresent());
     }
 
-    public static void _WaitUntillURL(WebDriver driver,String expect){
+    public static void _WaitUntillURL(String expect){
         WebDriverWait wait = new WebDriverWait(driver, GetTimeOut());
         wait.until(ExpectedConditions.urlContains(expect));
     }
 
-    public static void _WaitFor(WebDriver driver,WebElement element){
+    public static void _WaitFor(WebElement element){
         WebDriverWait wait = new WebDriverWait(driver, GetTimeOut());
         try {
             wait.ignoring(StaleElementReferenceException.class)
@@ -43,7 +43,7 @@ public class Functions {
         }
     }
 
-    public static void _WaitFor(WebDriver driver,String xpath){
+    public static void _WaitFor(String xpath){
         WebDriverWait wait = new WebDriverWait(driver, GetTimeOut());
         wait.ignoring(StaleElementReferenceException.class)
                 .until(ExpectedConditions.visibilityOfElementLocated(By.xpath(xpath)));

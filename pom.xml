@@ -6,7 +6,7 @@
 
     <groupId>nhat.nguyen</groupId>
     <artifactId>testutils</artifactId>
-    <version>1.1</version>
+    <version>1.1.1</version>
     <distributionManagement>
         <repository>
             <id>internal.repo</id>
@@ -62,6 +62,11 @@
     </build>
 
     <dependencies>
+        <dependency>
+            <groupId>ru.yandex.qatools.allure</groupId>
+            <artifactId>allure-cucumber-jvm-adaptor</artifactId>
+            <version>1.6.4</version>
+        </dependency>
         <dependency>
             <groupId>com.github.shyiko.dotenv</groupId>
             <artifactId>dotenv</artifactId>

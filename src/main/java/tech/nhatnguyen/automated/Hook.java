@@ -28,10 +28,7 @@ import static tech.nhatnguyen.common.SysConfig.Env;
 
 public class Hook {
 
-    private final Base base;
-    public Hook(Base base) {
-        this.base = base;
-    }
+
     private final String BROWSER = Env("BROWSER").toLowerCase();
     private final String OS = System.getProperty("os.name").toLowerCase();
     private final String MODE = Env("BROWSER_MODE");
@@ -42,19 +39,19 @@ public class Hook {
         System.out.println(StartScenario(scenario));
         switch (BROWSER){
             case "chrome":
-                base.driver = Chrome();
+                Base.driver = Chrome();
                 break;
             case "firefox":
-                base.driver = Firefox();
+                Base.driver = Firefox();
                 break;
             case "edge":
-                base.driver = Edge();
+                Base.driver = Edge();
                 break;
             case "remote-chrome":
-                base.driver = RemoteChrome();
+                Base.driver = RemoteChrome();
                 break;
             case "remote-firefox":
-                base.driver = RemoteFirefox();
+                Base.driver = RemoteFirefox();
                 break;
         }
 
@@ -62,12 +59,12 @@ public class Hook {
 
     public void TestTearDown(Scenario result) throws URISyntaxException, IOException {
         if(result.isFailed()){
-            final byte[] screenshot = ((TakesScreenshot) base.driver)
+            final byte[] screenshot = ((TakesScreenshot) Base.driver)
                     .getScreenshotAs(OutputType.BYTES);
             result.embed(screenshot, "image/png");
         }
         System.out.println(EndScenario(result));
-        base.driver.quit();
+        Base.driver.quit();
 
     }
 
@@ -126,7 +123,7 @@ public class Hook {
     }
     private String EndScenario(Scenario scenario){
         return  "\n"  + "******* Execute scenario "+ scenario.getName() +
-                " done as :" + scenario.getStatus().toString().toUpperCase()+" ********"
+                " done as :" + scenario.getStatus().toUpperCase()+" ********"
                 + "\n";
     }
 

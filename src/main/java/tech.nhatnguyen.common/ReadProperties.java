@@ -8,9 +8,9 @@ public class ReadProperties {
     private String propFile ;
 
     public ReadProperties(String propFileName) {
-        this.propFile = propFileName;
+        this.propFile = System.getProperty("user.dir") +"/"+ propFileName;
     }
-
+    
     public String getValue(String key){
         try{
             java.util.Properties prop = new java.util.Properties();
