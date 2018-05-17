@@ -8,6 +8,7 @@ import io.github.bonigarcia.wdm.EdgeDriverManager;
 import io.github.bonigarcia.wdm.FirefoxDriverManager;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
@@ -31,7 +32,85 @@ public class Hook {
     public Hook(Base base) {
         this.base = base;
     }
-    private final String browser = Env("BROWSER").toLowerCase();//dot.get("BROWSER").toLowerCase();
+    private final String BROWSER = Env("BROWSER").toLowerCase();
+    private final String OS = System.getProperty("os.name").toLowerCase();
+    private final String MODE = Env("BROWSER_MODE");
+    private final String ENVIRONMENT = Env("ENVIRONMENT");
+    private final String BROWSERSIZE = browser_size();
+
+    public void TestInit(Scenario scenario) throws Exception {
+        System.out.println(StartScenario(scenario));
+        switch (BROWSER){
+            case "chrome":
+                base.driver = Chrome();
+                break;
+            case "firefox":
+                base.driver = Firefox();
+                break;
+            case "edge":
+                base.driver = Edge();
+                break;
+            case "remote-chrome":
+                base.driver = RemoteChrome();
+                break;
+            case "remote-firefox":
+                base.driver = RemoteFirefox();
+                break;
+        }
+
+    }
+
+    public void TestTearDown(Scenario result) throws URISyntaxException, IOException {
+        if(result.isFailed()){
+            final byte[] screenshot = ((TakesScreenshot) base.driver)
+                    .getScreenshotAs(OutputType.BYTES);
+            result.embed(screenshot, "image/png");
+        }
+        System.out.println(EndScenario(result));
+        base.driver.quit();
+
+    }
+
+    private WebDriver Edge(){
+        EdgeDriverManager.getInstance().setup();
+        return new EdgeDriver();
+    }
+
+    private WebDriver Firefox(){
+        FirefoxDriverManager.getInstance().arch64().setup();
+        FirefoxOptions ffoption = new FirefoxOptions();
+        ffoption.addArguments(browser_size());
+        if (MODE.equals("headless")){
+            ffoption.addArguments("--headless");}
+        return new FirefoxDriver(ffoption);
+    }
+    private WebDriver Chrome(){
+        ChromeDriverManager.getInstance().arch64().setup();
+        ChromeOptions option = new ChromeOptions();
+        Map<String, Object> preferences = new HashMap<String, Object>();
+        option.addArguments(browser_size());
+        if (MODE.equals("headless")){
+            option.addArguments("--headless");
+        }
+        return new ChromeDriver(option);
+    }
+    /** Chrome Docker *********/
+    private RemoteWebDriver RemoteChrome() throws Exception {
+        ChromeOptions option = new ChromeOptions();
+        option.addArguments(browser_size());
+        if (MODE.equals("headless")) {
+            option.addArguments("--headless");
+        }
+        return new RemoteWebDriver(new URL("http://localhost:35029/wd/hub"), option);
+    }
+    private RemoteWebDriver RemoteFirefox() throws Exception {
+        FirefoxOptions option = new FirefoxOptions();
+        option.addArguments(browser_size());
+        if (MODE.equals("headless")) {
+            option.addArguments("--headless");
+        }
+        return new RemoteWebDriver(new URL("http://localhost:35029/wd/hub"), option);
+    }
     private String browser_size(){
         String browser_size = "window-size=3840,2160";
         switch (Env("BROWSER_SIZE").toLowerCase())
@@ -41,107 +120,14 @@ public class Hook {
         }
         return browser_size;
     }
-    private final String os = System.getProperty("os.name").toLowerCase();
-    private final String mode = Env("BROWSER_MODE");
-    private final String Envi = Env("ENVIRONMENT");
-
-    @Before
-    public void TestInit(Scenario scenario) throws Exception {
-
-        switch (browser){
-            case "chrome":
-                ChromeDriverManager.getInstance().arch64().setup();
-                ChromeOptions option = new ChromeOptions();
-                Map<String, Object> preferences = new HashMap<String, Object>();
-                option.addArguments(browser_size());
-                if (mode.equals("headless")){
-                    option.addArguments("--headless");}
-                base.driver = new ChromeDriver(option);
-                break;
-            case "firefox":
-                FirefoxDriverManager.getInstance().arch64().setup();
-                FirefoxOptions ffoption = new FirefoxOptions();
-                ffoption.addArguments(browser_size());
-                if (mode.equals("headless")){
-                    ffoption.addArguments("--headless");}
-                base.driver = new FirefoxDriver(ffoption);
-                break;
-            case "edge":
-                EdgeDriverManager.getInstance().setup();
-                base.driver = new EdgeDriver();
-                break;
-            case "remote-chrome":
-                base.driver = RemoteChrome();
-                break;
-            case  "BSiphone":
-                base.driver = BSiphone();
-                break;
-            case "testingbot":
-                base.driver = TestingBot();
-                break;
-        }
-
+    private String StartScenario(Scenario scenario){
+        return "\n " + "========(^.^) Execute "+ scenario.getName()
+                + " in "+ENVIRONMENT + " with " + BROWSER +" on " + OS +" (^.^)========" + "\n";
     }
-    @After
-    public void endTestCase(Scenario result) throws URISyntaxException, IOException {
-        if(result.isFailed()){
-            final byte[] screenshot = ((TakesScreenshot) base.driver)
-                    .getScreenshotAs(OutputType.BYTES);
-            result.embed(screenshot, "image/png");
-        }
-        System.out.println("\n");
-        System.out.println("******* Execute scenario "+ result.getName() +
-                " done as :" + result.getStatus().toString().toUpperCase()+" ********");
-        System.out.println("\n");
-        base.driver.quit();
-
-    }
-
-
-
-
-    // Register remote chrome desktop
-    private RemoteWebDriver RemoteChrome() throws Exception {
-        ChromeOptions option = new ChromeOptions();
-        option.addArguments(browser_size());
-        if (mode.equals("headless")) {
-            option.addArguments("--headless");
-        }
-        return new RemoteWebDriver(new URL("http://localhost:35029/wd/hub"), option);
-    }
-
-    //BROWSER stack
-    private RemoteWebDriver BSiphone() throws MalformedURLException {
-        String USERNAME = "lanbihack1";
-        String AUTOMATE_KEY = "xeRSXyMH9a4xfLW2p2Vi";
-        String URL = "https://" + USERNAME + ":" + AUTOMATE_KEY
-                + "@hub-cloud.browserstack.com/wd/hub";
-
-        DesiredCapabilities caps = new DesiredCapabilities();
-        caps.setCapability("browserName", "iPhone");
-        caps.setCapability("device", "iPhone 7");
-        caps.setCapability("realMobile", "true");
-        caps.setCapability("os_version", "10.3");
-
-        return new RemoteWebDriver(new URL(URL), caps);
-    }
-
-    /** Testing bot Browser **/
-
-    private RemoteWebDriver TestingBot() throws MalformedURLException {
-        String KEY = "e55c0f0d0e67adb82d005554d7dc84e2";
-        String SECRET = "a557934ddd89ad36b15eb0b80d27f0ba";
-        String URL = "https://" + KEY + ":" + SECRET + "@hub.testingbot.com/wd/hub";
-        DesiredCapabilities caps = new DesiredCapabilities();
-        caps.setCapability("browserName", "safari");
-        caps.setCapability("version", "11.2");
-        caps.setCapability("platform", "iOS");
-        caps.setCapability("deviceName", "iPhone X");
-        caps.setCapability("platformName", "iOS");
-
-
-        return new RemoteWebDriver(new URL(URL), caps);
-
+    private String EndScenario(Scenario scenario){
+        return  "\n"  + "******* Execute scenario "+ scenario.getName() +
+                " done as :" + scenario.getStatus().toString().toUpperCase()+" ********"
+                + "\n";
     }
 
 }
