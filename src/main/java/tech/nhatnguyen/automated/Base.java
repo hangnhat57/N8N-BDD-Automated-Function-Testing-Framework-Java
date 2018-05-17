@@ -14,10 +14,6 @@ public class Base {
         this.driver = driver;
     }
 
-    public String getEnvirOf(String keyword){
-        Map<String, String> dot = DotEnv.load();
-        return dot.get(keyword);
-    }
     public static String url(){
         return Env("URL").toLowerCase();
     }

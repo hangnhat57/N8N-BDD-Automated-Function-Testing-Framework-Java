@@ -12,6 +12,7 @@ import static tech.nhatnguyen.common.SysConfig.GetTimeOut;
 public class Functions {
 
 
+
     public boolean isVisible(WebDriver driver,WebElement element){
         try {
             _WaitFor(driver,element);

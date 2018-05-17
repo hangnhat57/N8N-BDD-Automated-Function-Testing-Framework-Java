@@ -3,6 +3,8 @@ package tech.nhatnguyen.selenium;
 import org.openqa.selenium.*;
 import org.openqa.selenium.interactions.internal.Coordinates;
 import org.openqa.selenium.interactions.internal.Locatable;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 import static tech.nhatnguyen.common.StringUtils._ConvertXpath;
 import static tech.nhatnguyen.selenium.Functions._WaitFor;
@@ -10,7 +12,6 @@ import static tech.nhatnguyen.selenium.Functions._WaitForAlert;
 
 
 public class Actions {
-
 
     public void _Hover(WebDriver driver,WebElement element){
         _WaitFor(driver,element);
