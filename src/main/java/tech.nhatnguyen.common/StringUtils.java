@@ -1,4 +1,4 @@
-package cmn;
+package tech.nhatnguyen.common;
 
 
 import java.util.ArrayList;
