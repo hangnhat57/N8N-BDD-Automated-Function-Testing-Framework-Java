@@ -9,7 +9,7 @@ public class StringHelper {
 
     public static String _ConvertXpath(String xpath, String value) {
         ArrayList ary = new ArrayList(Arrays.asList(xpath.split("''")));
-        String e = "\'" + value + "\'";
+        String e = "\"" + value + "\"";
         ary.add(1, e);
         return String.join("", ary);
 
