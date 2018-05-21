@@ -6,10 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="Shepherd" />
         <module name="TestUtils" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="Shepherd" target="1.8" />
       <module name="TestUtils" target="1.8" />
     </bytecodeTargetLevel>
   </component>
