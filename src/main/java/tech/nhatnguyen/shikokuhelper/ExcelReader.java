@@ -37,6 +37,9 @@ public class ExcelReader {
                         case Cell.CELL_TYPE_STRING:
                             currentHash.put(HeaderRow.getCell(j).getStringCellValue(), currentCell.getStringCellValue());
                             break;
+                        case Cell.CELL_TYPE_BLANK:
+                            currentHash.put(HeaderRow.getCell(j).getStringCellValue(), "");
+                            break;
                     }
                 }
                 mydata.add(currentHash);
