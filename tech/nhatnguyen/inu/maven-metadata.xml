@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metadata>
   <groupId>tech.nhatnguyen</groupId>
-  <artifactId>shepherd</artifactId>
+  <artifactId>inu</artifactId>
   <versioning>
-    <release>1.1.4</release>
+    <release>1.1.5</release>
     <versions>
-      <version>1.1.4</version>
+      <version>1.1.5</version>
     </versions>
-    <lastUpdated>20180522041834</lastUpdated>
+    <lastUpdated>20180522072217</lastUpdated>
   </versioning>
 </metadata>
