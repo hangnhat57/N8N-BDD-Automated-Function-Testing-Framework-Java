@@ -33,11 +33,11 @@ Java Automation Test Helper for selenium
 
 ## Usage
 
-- Create Hook class Inheritance from tech.nhatnguyen.initializer.HookHelper
+- Create Hook class Inheritance from tech.nhatnguyen.nihonsupittsu.HookHelper
 - Implement method: TestInit() for @Before tag
 - Implement method: TestTearDown for @After tag 
-- Inheritance from tech.nhatnguyen.initializer.PageObjectHelper to all defined Page classes.
-- Inheritance from tech.nhatnguyen.initializer.StepHelper to all defined Step classes.
+- Inheritance from tech.nhatnguyen.nihonsupittsu.PageObjectHelper to all defined Page classes.
+- Inheritance from tech.nhatnguyen.nihonsupittsu.StepHelper to all defined Step classes.
 
 Package info: 
 - akitahelper: Selenium custom functions 

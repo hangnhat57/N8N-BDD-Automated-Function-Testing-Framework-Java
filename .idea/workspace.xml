@@ -2,7 +2,126 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6f5a31c3-bc03-4787-8ce2-55bb4f372586" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/tech/nhatnguyen/shibahelper/StringHelper.java" afterPath="$PROJECT_DIR$/src/main/java/tech/nhatnguyen/shibahelper/StringHelper.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/tech/nhatnguyen/akita/package-info.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/tech/nhatnguyen/kishu/package-info.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/tech/nhatnguyen/nihonsupittsu/package-info.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/tech/nhatnguyen/shiba/package-info.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/tech/nhatnguyen/shikoku/package-info.java" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/Docs/allclasses-frame.html" afterPath="$PROJECT_DIR$/Docs/allclasses-frame.html" />
+      <change beforePath="$PROJECT_DIR$/Docs/allclasses-noframe.html" afterPath="$PROJECT_DIR$/Docs/allclasses-noframe.html" />
+      <change beforePath="$PROJECT_DIR$/Docs/constant-values.html" afterPath="$PROJECT_DIR$/Docs/constant-values.html" />
+      <change beforePath="$PROJECT_DIR$/Docs/deprecated-list.html" afterPath="$PROJECT_DIR$/Docs/deprecated-list.html" />
+      <change beforePath="$PROJECT_DIR$/Docs/help-doc.html" afterPath="$PROJECT_DIR$/Docs/help-doc.html" />
+      <change beforePath="$PROJECT_DIR$/Docs/index-files/index-1.html" afterPath="$PROJECT_DIR$/Docs/index-files/index-1.html" />
+      <change beforePath="$PROJECT_DIR$/Docs/index-files/index-10.html" afterPath="$PROJECT_DIR$/Docs/index-files/index-10.html" />
+      <change beforePath="$PROJECT_DIR$/Docs/index-files/index-11.html" afterPath="$PROJECT_DIR$/Docs/index-files/index-11.html" />
+      <change beforePath="$PROJECT_DIR$/Docs/index-files/index-12.html" afterPath="$PROJECT_DIR$/Docs/index-files/index-12.html" />
+      <change beforePath="$PROJECT_DIR$/Docs/index-files/index-13.html" afterPath="$PROJECT_DIR$/Docs/index-files/index-13.html" />
+      <change beforePath="$PROJECT_DIR$/Docs/index-files/index-14.html" afterPath="$PROJECT_DIR$/Docs/index-files/index-14.html" />
+      <change beforePath="$PROJECT_DIR$/Docs/index-files/index-15.html" afterPath="$PROJECT_DIR$/Docs/index-files/index-15.html" />
+      <change beforePath="$PROJECT_DIR$/Docs/index-files/index-16.html" afterPath="$PROJECT_DIR$/Docs/index-files/index-16.html" />
+      <change beforePath="$PROJECT_DIR$/Docs/index-files/index-17.html" afterPath="$PROJECT_DIR$/Docs/index-files/index-17.html" />
+      <change beforePath="$PROJECT_DIR$/Docs/index-files/index-2.html" afterPath="$PROJECT_DIR$/Docs/index-files/index-2.html" />
+      <change beforePath="$PROJECT_DIR$/Docs/index-files/index-3.html" afterPath="$PROJECT_DIR$/Docs/index-files/index-3.html" />
+      <change beforePath="$PROJECT_DIR$/Docs/index-files/index-4.html" afterPath="$PROJECT_DIR$/Docs/index-files/index-4.html" />
+      <change beforePath="$PROJECT_DIR$/Docs/index-files/index-5.html" afterPath="$PROJECT_DIR$/Docs/index-files/index-5.html" />
+      <change beforePath="$PROJECT_DIR$/Docs/index-files/index-6.html" afterPath="$PROJECT_DIR$/Docs/index-files/index-6.html" />
+      <change beforePath="$PROJECT_DIR$/Docs/index-files/index-7.html" afterPath="$PROJECT_DIR$/Docs/index-files/index-7.html" />
+      <change beforePath="$PROJECT_DIR$/Docs/index-files/index-8.html" afterPath="$PROJECT_DIR$/Docs/index-files/index-8.html" />
+      <change beforePath="$PROJECT_DIR$/Docs/index-files/index-9.html" afterPath="$PROJECT_DIR$/Docs/index-files/index-9.html" />
+      <change beforePath="$PROJECT_DIR$/Docs/index.html" afterPath="$PROJECT_DIR$/Docs/index.html" />
+      <change beforePath="$PROJECT_DIR$/Docs/overview-frame.html" afterPath="$PROJECT_DIR$/Docs/overview-frame.html" />
+      <change beforePath="$PROJECT_DIR$/Docs/overview-summary.html" afterPath="$PROJECT_DIR$/Docs/overview-summary.html" />
+      <change beforePath="$PROJECT_DIR$/Docs/overview-tree.html" afterPath="$PROJECT_DIR$/Docs/overview-tree.html" />
+      <change beforePath="$PROJECT_DIR$/Docs/package-list" afterPath="$PROJECT_DIR$/Docs/package-list" />
+      <change beforePath="$PROJECT_DIR$/Docs/script.js" afterPath="$PROJECT_DIR$/Docs/script.js" />
+      <change beforePath="$PROJECT_DIR$/Docs/tech/nhatnguyen/akitahelper/ActionHelper.html" afterPath="$PROJECT_DIR$/Docs/tech/nhatnguyen/akitahelper/ActionHelper.html" />
+      <change beforePath="$PROJECT_DIR$/Docs/tech/nhatnguyen/akitahelper/FunctionHelper.html" afterPath="$PROJECT_DIR$/Docs/tech/nhatnguyen/akitahelper/FunctionHelper.html" />
+      <change beforePath="$PROJECT_DIR$/Docs/tech/nhatnguyen/akitahelper/class-use/ActionHelper.html" afterPath="$PROJECT_DIR$/Docs/tech/nhatnguyen/akitahelper/class-use/ActionHelper.html" />
+      <change beforePath="$PROJECT_DIR$/Docs/tech/nhatnguyen/akitahelper/class-use/FunctionHelper.html" afterPath="$PROJECT_DIR$/Docs/tech/nhatnguyen/akitahelper/class-use/FunctionHelper.html" />
+      <change beforePath="$PROJECT_DIR$/Docs/tech/nhatnguyen/akitahelper/package-frame.html" afterPath="$PROJECT_DIR$/Docs/tech/nhatnguyen/akitahelper/package-frame.html" />
+      <change beforePath="$PROJECT_DIR$/Docs/tech/nhatnguyen/akitahelper/package-summary.html" afterPath="$PROJECT_DIR$/Docs/tech/nhatnguyen/akitahelper/package-summary.html" />
+      <change beforePath="$PROJECT_DIR$/Docs/tech/nhatnguyen/akitahelper/package-tree.html" afterPath="$PROJECT_DIR$/Docs/tech/nhatnguyen/akitahelper/package-tree.html" />
+      <change beforePath="$PROJECT_DIR$/Docs/tech/nhatnguyen/akitahelper/package-use.html" afterPath="$PROJECT_DIR$/Docs/tech/nhatnguyen/akitahelper/package-use.html" />
+      <change beforePath="$PROJECT_DIR$/Docs/tech/nhatnguyen/automated/Base.html" afterPath="$PROJECT_DIR$/Docs/tech/nhatnguyen/automated/Base.html" />
+      <change beforePath="$PROJECT_DIR$/Docs/tech/nhatnguyen/automated/Hook.html" afterPath="$PROJECT_DIR$/Docs/tech/nhatnguyen/automated/Hook.html" />
+      <change beforePath="$PROJECT_DIR$/Docs/tech/nhatnguyen/automated/PageObject.html" afterPath="$PROJECT_DIR$/Docs/tech/nhatnguyen/automated/PageObject.html" />
+      <change beforePath="$PROJECT_DIR$/Docs/tech/nhatnguyen/automated/Steps.html" afterPath="$PROJECT_DIR$/Docs/tech/nhatnguyen/automated/Steps.html" />
+      <change beforePath="$PROJECT_DIR$/Docs/tech/nhatnguyen/automated/class-use/Base.html" afterPath="$PROJECT_DIR$/Docs/tech/nhatnguyen/automated/class-use/Base.html" />
+      <change beforePath="$PROJECT_DIR$/Docs/tech/nhatnguyen/automated/class-use/Hook.html" afterPath="$PROJECT_DIR$/Docs/tech/nhatnguyen/automated/class-use/Hook.html" />
+      <change beforePath="$PROJECT_DIR$/Docs/tech/nhatnguyen/automated/class-use/PageObject.html" afterPath="$PROJECT_DIR$/Docs/tech/nhatnguyen/automated/class-use/PageObject.html" />
+      <change beforePath="$PROJECT_DIR$/Docs/tech/nhatnguyen/automated/class-use/Steps.html" afterPath="$PROJECT_DIR$/Docs/tech/nhatnguyen/automated/class-use/Steps.html" />
+      <change beforePath="$PROJECT_DIR$/Docs/tech/nhatnguyen/automated/package-frame.html" afterPath="$PROJECT_DIR$/Docs/tech/nhatnguyen/automated/package-frame.html" />
+      <change beforePath="$PROJECT_DIR$/Docs/tech/nhatnguyen/automated/package-summary.html" afterPath="$PROJECT_DIR$/Docs/tech/nhatnguyen/automated/package-summary.html" />
+      <change beforePath="$PROJECT_DIR$/Docs/tech/nhatnguyen/automated/package-tree.html" afterPath="$PROJECT_DIR$/Docs/tech/nhatnguyen/automated/package-tree.html" />
+      <change beforePath="$PROJECT_DIR$/Docs/tech/nhatnguyen/automated/package-use.html" afterPath="$PROJECT_DIR$/Docs/tech/nhatnguyen/automated/package-use.html" />
+      <change beforePath="$PROJECT_DIR$/Docs/tech/nhatnguyen/common/ReadProperties.html" afterPath="$PROJECT_DIR$/Docs/tech/nhatnguyen/common/ReadProperties.html" />
+      <change beforePath="$PROJECT_DIR$/Docs/tech/nhatnguyen/common/StringUtils.html" afterPath="$PROJECT_DIR$/Docs/tech/nhatnguyen/common/StringUtils.html" />
+      <change beforePath="$PROJECT_DIR$/Docs/tech/nhatnguyen/common/SysConfig.html" afterPath="$PROJECT_DIR$/Docs/tech/nhatnguyen/common/SysConfig.html" />
+      <change beforePath="$PROJECT_DIR$/Docs/tech/nhatnguyen/common/class-use/ReadProperties.html" afterPath="$PROJECT_DIR$/Docs/tech/nhatnguyen/common/class-use/ReadProperties.html" />
+      <change beforePath="$PROJECT_DIR$/Docs/tech/nhatnguyen/common/class-use/StringUtils.html" afterPath="$PROJECT_DIR$/Docs/tech/nhatnguyen/common/class-use/StringUtils.html" />
+      <change beforePath="$PROJECT_DIR$/Docs/tech/nhatnguyen/common/class-use/SysConfig.html" afterPath="$PROJECT_DIR$/Docs/tech/nhatnguyen/common/class-use/SysConfig.html" />
+      <change beforePath="$PROJECT_DIR$/Docs/tech/nhatnguyen/common/package-frame.html" afterPath="$PROJECT_DIR$/Docs/tech/nhatnguyen/common/package-frame.html" />
+      <change beforePath="$PROJECT_DIR$/Docs/tech/nhatnguyen/common/package-summary.html" afterPath="$PROJECT_DIR$/Docs/tech/nhatnguyen/common/package-summary.html" />
+      <change beforePath="$PROJECT_DIR$/Docs/tech/nhatnguyen/common/package-tree.html" afterPath="$PROJECT_DIR$/Docs/tech/nhatnguyen/common/package-tree.html" />
+      <change beforePath="$PROJECT_DIR$/Docs/tech/nhatnguyen/common/package-use.html" afterPath="$PROJECT_DIR$/Docs/tech/nhatnguyen/common/package-use.html" />
+      <change beforePath="$PROJECT_DIR$/Docs/tech/nhatnguyen/initializer/Base.html" afterPath="$PROJECT_DIR$/Docs/tech/nhatnguyen/initializer/Base.html" />
+      <change beforePath="$PROJECT_DIR$/Docs/tech/nhatnguyen/initializer/HookHelper.html" afterPath="$PROJECT_DIR$/Docs/tech/nhatnguyen/initializer/HookHelper.html" />
+      <change beforePath="$PROJECT_DIR$/Docs/tech/nhatnguyen/initializer/PageObjectHelper.html" afterPath="$PROJECT_DIR$/Docs/tech/nhatnguyen/initializer/PageObjectHelper.html" />
+      <change beforePath="$PROJECT_DIR$/Docs/tech/nhatnguyen/initializer/StepHelper.html" afterPath="$PROJECT_DIR$/Docs/tech/nhatnguyen/initializer/StepHelper.html" />
+      <change beforePath="$PROJECT_DIR$/Docs/tech/nhatnguyen/initializer/class-use/Base.html" afterPath="$PROJECT_DIR$/Docs/tech/nhatnguyen/initializer/class-use/Base.html" />
+      <change beforePath="$PROJECT_DIR$/Docs/tech/nhatnguyen/initializer/class-use/HookHelper.html" afterPath="$PROJECT_DIR$/Docs/tech/nhatnguyen/initializer/class-use/HookHelper.html" />
+      <change beforePath="$PROJECT_DIR$/Docs/tech/nhatnguyen/initializer/class-use/PageObjectHelper.html" afterPath="$PROJECT_DIR$/Docs/tech/nhatnguyen/initializer/class-use/PageObjectHelper.html" />
+      <change beforePath="$PROJECT_DIR$/Docs/tech/nhatnguyen/initializer/class-use/StepHelper.html" afterPath="$PROJECT_DIR$/Docs/tech/nhatnguyen/initializer/class-use/StepHelper.html" />
+      <change beforePath="$PROJECT_DIR$/Docs/tech/nhatnguyen/initializer/package-frame.html" afterPath="$PROJECT_DIR$/Docs/tech/nhatnguyen/initializer/package-frame.html" />
+      <change beforePath="$PROJECT_DIR$/Docs/tech/nhatnguyen/initializer/package-summary.html" afterPath="$PROJECT_DIR$/Docs/tech/nhatnguyen/initializer/package-summary.html" />
+      <change beforePath="$PROJECT_DIR$/Docs/tech/nhatnguyen/initializer/package-tree.html" afterPath="$PROJECT_DIR$/Docs/tech/nhatnguyen/initializer/package-tree.html" />
+      <change beforePath="$PROJECT_DIR$/Docs/tech/nhatnguyen/initializer/package-use.html" afterPath="$PROJECT_DIR$/Docs/tech/nhatnguyen/initializer/package-use.html" />
+      <change beforePath="$PROJECT_DIR$/Docs/tech/nhatnguyen/kishuhelper/EmailHelper.html" afterPath="$PROJECT_DIR$/Docs/tech/nhatnguyen/kishuhelper/EmailHelper.html" />
+      <change beforePath="$PROJECT_DIR$/Docs/tech/nhatnguyen/kishuhelper/class-use/EmailHelper.html" afterPath="$PROJECT_DIR$/Docs/tech/nhatnguyen/kishuhelper/class-use/EmailHelper.html" />
+      <change beforePath="$PROJECT_DIR$/Docs/tech/nhatnguyen/kishuhelper/package-frame.html" afterPath="$PROJECT_DIR$/Docs/tech/nhatnguyen/kishuhelper/package-frame.html" />
+      <change beforePath="$PROJECT_DIR$/Docs/tech/nhatnguyen/kishuhelper/package-summary.html" afterPath="$PROJECT_DIR$/Docs/tech/nhatnguyen/kishuhelper/package-summary.html" />
+      <change beforePath="$PROJECT_DIR$/Docs/tech/nhatnguyen/kishuhelper/package-tree.html" afterPath="$PROJECT_DIR$/Docs/tech/nhatnguyen/kishuhelper/package-tree.html" />
+      <change beforePath="$PROJECT_DIR$/Docs/tech/nhatnguyen/kishuhelper/package-use.html" afterPath="$PROJECT_DIR$/Docs/tech/nhatnguyen/kishuhelper/package-use.html" />
+      <change beforePath="$PROJECT_DIR$/Docs/tech/nhatnguyen/selenium/Actions.html" afterPath="$PROJECT_DIR$/Docs/tech/nhatnguyen/selenium/Actions.html" />
+      <change beforePath="$PROJECT_DIR$/Docs/tech/nhatnguyen/selenium/Functions.html" afterPath="$PROJECT_DIR$/Docs/tech/nhatnguyen/selenium/Functions.html" />
+      <change beforePath="$PROJECT_DIR$/Docs/tech/nhatnguyen/selenium/class-use/Actions.html" afterPath="$PROJECT_DIR$/Docs/tech/nhatnguyen/selenium/class-use/Actions.html" />
+      <change beforePath="$PROJECT_DIR$/Docs/tech/nhatnguyen/selenium/class-use/Functions.html" afterPath="$PROJECT_DIR$/Docs/tech/nhatnguyen/selenium/class-use/Functions.html" />
+      <change beforePath="$PROJECT_DIR$/Docs/tech/nhatnguyen/selenium/package-frame.html" afterPath="$PROJECT_DIR$/Docs/tech/nhatnguyen/selenium/package-frame.html" />
+      <change beforePath="$PROJECT_DIR$/Docs/tech/nhatnguyen/selenium/package-summary.html" afterPath="$PROJECT_DIR$/Docs/tech/nhatnguyen/selenium/package-summary.html" />
+      <change beforePath="$PROJECT_DIR$/Docs/tech/nhatnguyen/selenium/package-tree.html" afterPath="$PROJECT_DIR$/Docs/tech/nhatnguyen/selenium/package-tree.html" />
+      <change beforePath="$PROJECT_DIR$/Docs/tech/nhatnguyen/selenium/package-use.html" afterPath="$PROJECT_DIR$/Docs/tech/nhatnguyen/selenium/package-use.html" />
+      <change beforePath="$PROJECT_DIR$/Docs/tech/nhatnguyen/shibahelper/PropertyReader.html" afterPath="$PROJECT_DIR$/Docs/tech/nhatnguyen/shibahelper/PropertyReader.html" />
+      <change beforePath="$PROJECT_DIR$/Docs/tech/nhatnguyen/shibahelper/StringHelper.html" afterPath="$PROJECT_DIR$/Docs/tech/nhatnguyen/shibahelper/StringHelper.html" />
+      <change beforePath="$PROJECT_DIR$/Docs/tech/nhatnguyen/shibahelper/SystemConfiguration.html" afterPath="$PROJECT_DIR$/Docs/tech/nhatnguyen/shibahelper/SystemConfiguration.html" />
+      <change beforePath="$PROJECT_DIR$/Docs/tech/nhatnguyen/shibahelper/class-use/PropertyReader.html" afterPath="$PROJECT_DIR$/Docs/tech/nhatnguyen/shibahelper/class-use/PropertyReader.html" />
+      <change beforePath="$PROJECT_DIR$/Docs/tech/nhatnguyen/shibahelper/class-use/StringHelper.html" afterPath="$PROJECT_DIR$/Docs/tech/nhatnguyen/shibahelper/class-use/StringHelper.html" />
+      <change beforePath="$PROJECT_DIR$/Docs/tech/nhatnguyen/shibahelper/class-use/SystemConfiguration.html" afterPath="$PROJECT_DIR$/Docs/tech/nhatnguyen/shibahelper/class-use/SystemConfiguration.html" />
+      <change beforePath="$PROJECT_DIR$/Docs/tech/nhatnguyen/shibahelper/package-frame.html" afterPath="$PROJECT_DIR$/Docs/tech/nhatnguyen/shibahelper/package-frame.html" />
+      <change beforePath="$PROJECT_DIR$/Docs/tech/nhatnguyen/shibahelper/package-summary.html" afterPath="$PROJECT_DIR$/Docs/tech/nhatnguyen/shibahelper/package-summary.html" />
+      <change beforePath="$PROJECT_DIR$/Docs/tech/nhatnguyen/shibahelper/package-tree.html" afterPath="$PROJECT_DIR$/Docs/tech/nhatnguyen/shibahelper/package-tree.html" />
+      <change beforePath="$PROJECT_DIR$/Docs/tech/nhatnguyen/shibahelper/package-use.html" afterPath="$PROJECT_DIR$/Docs/tech/nhatnguyen/shibahelper/package-use.html" />
+      <change beforePath="$PROJECT_DIR$/Docs/tech/nhatnguyen/shikokuhelper/ExcelReader.html" afterPath="$PROJECT_DIR$/Docs/tech/nhatnguyen/shikokuhelper/ExcelReader.html" />
+      <change beforePath="$PROJECT_DIR$/Docs/tech/nhatnguyen/shikokuhelper/class-use/ExcelReader.html" afterPath="$PROJECT_DIR$/Docs/tech/nhatnguyen/shikokuhelper/class-use/ExcelReader.html" />
+      <change beforePath="$PROJECT_DIR$/Docs/tech/nhatnguyen/shikokuhelper/package-frame.html" afterPath="$PROJECT_DIR$/Docs/tech/nhatnguyen/shikokuhelper/package-frame.html" />
+      <change beforePath="$PROJECT_DIR$/Docs/tech/nhatnguyen/shikokuhelper/package-summary.html" afterPath="$PROJECT_DIR$/Docs/tech/nhatnguyen/shikokuhelper/package-summary.html" />
+      <change beforePath="$PROJECT_DIR$/Docs/tech/nhatnguyen/shikokuhelper/package-tree.html" afterPath="$PROJECT_DIR$/Docs/tech/nhatnguyen/shikokuhelper/package-tree.html" />
+      <change beforePath="$PROJECT_DIR$/Docs/tech/nhatnguyen/shikokuhelper/package-use.html" afterPath="$PROJECT_DIR$/Docs/tech/nhatnguyen/shikokuhelper/package-use.html" />
+      <change beforePath="$PROJECT_DIR$/Readme.md" afterPath="$PROJECT_DIR$/Readme.md" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tech/nhatnguyen/akitahelper/ActionHelper.java" afterPath="$PROJECT_DIR$/src/main/java/tech/nhatnguyen/akita/ActionHelper.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tech/nhatnguyen/akitahelper/FunctionHelper.java" afterPath="$PROJECT_DIR$/src/main/java/tech/nhatnguyen/akita/FunctionHelper.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tech/nhatnguyen/initializer/Base.java" afterPath="$PROJECT_DIR$/src/main/java/tech/nhatnguyen/nihonsupittsu/Base.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tech/nhatnguyen/initializer/HookHelper.java" afterPath="$PROJECT_DIR$/src/main/java/tech/nhatnguyen/nihonsupittsu/HookHelper.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tech/nhatnguyen/initializer/PageObjectHelper.java" afterPath="$PROJECT_DIR$/src/main/java/tech/nhatnguyen/nihonsupittsu/PageObjectHelper.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tech/nhatnguyen/initializer/StepHelper.java" afterPath="$PROJECT_DIR$/src/main/java/tech/nhatnguyen/nihonsupittsu/StepHelper.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tech/nhatnguyen/kishuhelper/EmailHelper.java" afterPath="$PROJECT_DIR$/src/main/java/tech/nhatnguyen/kishu/EmailHelper.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tech/nhatnguyen/shibahelper/PropertyReader.java" afterPath="$PROJECT_DIR$/src/main/java/tech/nhatnguyen/shiba/PropertyReader.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tech/nhatnguyen/shibahelper/StringHelper.java" afterPath="$PROJECT_DIR$/src/main/java/tech/nhatnguyen/shiba/StringHelper.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tech/nhatnguyen/shibahelper/SystemConfiguration.java" afterPath="$PROJECT_DIR$/src/main/java/tech/nhatnguyen/shiba/SystemConfiguration.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tech/nhatnguyen/shikokuhelper/ExcelReader.java" afterPath="$PROJECT_DIR$/src/main/java/tech/nhatnguyen/shikoku/ExcelReader.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -15,23 +134,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="StringHelper.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/tech/nhatnguyen/shibahelper/StringHelper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="39" lean-forward="false" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="HookHelper.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/tech/nhatnguyen/initializer/HookHelper.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/tech/nhatnguyen/nihonsupittsu/HookHelper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="24" column="13" lean-forward="false" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+            <state relative-caret-position="750">
+              <caret line="50" column="22" lean-forward="false" selection-start-line="50" selection-start-column="22" selection-end-line="50" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -39,33 +146,71 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PageObjectHelper.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/tech/nhatnguyen/initializer/PageObjectHelper.java">
+      <file leaf-file-name="package-info.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/tech/nhatnguyen/shikoku/package-info.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+            <state relative-caret-position="15">
+              <caret line="1" column="27" lean-forward="false" selection-start-line="1" selection-start-column="27" selection-end-line="1" selection-end-column="27" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EmailHelper.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/tech/nhatnguyen/kishuhelper/EmailHelper.java">
+      <file leaf-file-name="package-info.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/tech/nhatnguyen/shiba/package-info.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="15">
+              <caret line="1" column="21" lean-forward="false" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PropertyReader.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/tech/nhatnguyen/shibahelper/PropertyReader.java">
+      <file leaf-file-name="package-info.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/tech/nhatnguyen/nihonsupittsu/package-info.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="6" column="21" lean-forward="false" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+            <state relative-caret-position="15">
+              <caret line="1" column="30" lean-forward="false" selection-start-line="1" selection-start-column="30" selection-end-line="1" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="package-info.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/tech/nhatnguyen/kishu/package-info.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="8" lean-forward="false" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="package-info.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/tech/nhatnguyen/akita/package-info.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="3" lean-forward="false" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="3" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="18" lean-forward="false" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FunctionHelper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/tech/nhatnguyen/akita/FunctionHelper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="465">
+              <caret line="31" column="41" lean-forward="false" selection-start-line="31" selection-start-column="41" selection-end-line="31" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -74,56 +219,23 @@
         </entry>
       </file>
       <file leaf-file-name="SystemConfiguration.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/tech/nhatnguyen/shibahelper/SystemConfiguration.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/tech/nhatnguyen/shiba/SystemConfiguration.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="15" column="41" lean-forward="false" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
+            <state relative-caret-position="150">
+              <caret line="12" column="23" lean-forward="false" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PropertyReader.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/tech/nhatnguyen/shiba/PropertyReader.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="21" lean-forward="false" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Shepherd.iml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Shepherd.iml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="5" lean-forward="false" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ExcelReader.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/tech/nhatnguyen/shikokuhelper/ExcelReader.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="34" lean-forward="false" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1235#1251#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StepHelper.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/tech/nhatnguyen/initializer/StepHelper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="9" column="25" lean-forward="false" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -133,14 +245,16 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="package-info" />
         <option value="Class" />
+        <option value="package-info" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>Alert</find>
+      <find>mouse</find>
+      <find>clear</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -182,16 +296,23 @@
         <option value="$PROJECT_DIR$/src/main/java/tech/nhatnguyen/initializer/Base.java" />
         <option value="$PROJECT_DIR$/src/main/java/tech/nhatnguyen/initializer/Hook.java" />
         <option value="$PROJECT_DIR$/src/main/java/tech/nhatnguyen/shikoku/ExcelReader.java" />
-        <option value="$PROJECT_DIR$/src/main/java/tech/nhatnguyen/kishuhelper/EmailHelper.java" />
         <option value="$PROJECT_DIR$/src/main/java/tech/nhatnguyen/initializer/PageObjectHelper.java" />
         <option value="$PROJECT_DIR$/src/main/java/tech/nhatnguyen/initializer/StepHelper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/tech/nhatnguyen/akitahelper/ActionHelper.java" />
         <option value="$PROJECT_DIR$/Readme.md" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/tech/nhatnguyen/shibahelper/SystemConfiguration.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/main/java/tech/nhatnguyen/shikokuhelper/ExcelReader.java" />
+        <option value="$PROJECT_DIR$/src/main/java/tech/nhatnguyen/shibahelper/SystemConfiguration.java" />
         <option value="$PROJECT_DIR$/src/main/java/tech/nhatnguyen/shibahelper/StringHelper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/tech/nhatnguyen/kishuhelper/EmailHelper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/tech/nhatnguyen/initializer/HookHelper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/tech/nhatnguyen/akitahelper/ActionHelper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/tech/nhatnguyen/akitahelper/FunctionHelper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/tech/nhatnguyen/akita/package-info.java" />
+        <option value="$PROJECT_DIR$/src/main/java/tech/nhatnguyen/kishu/package-info.java" />
+        <option value="$PROJECT_DIR$/src/main/java/tech/nhatnguyen/nihonsupittsu/package-info.java" />
+        <option value="$PROJECT_DIR$/src/main/java/tech/nhatnguyen/shiba/package-info.java" />
+        <option value="$PROJECT_DIR$/src/main/java/tech/nhatnguyen/shikoku/package-info.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -208,11 +329,10 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
-    <option name="x" value="1844" />
-    <option name="y" value="101" />
-    <option name="width" value="1440" />
-    <option name="height" value="815" />
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="x" value="1440" />
+    <option name="width" value="1920" />
+    <option name="height" value="1080" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -270,7 +390,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="nhatnguyen" type="462c0819:PsiDirectoryNode" />
-              <item name="akitahelper" type="462c0819:PsiDirectoryNode" />
+              <item name="akita" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="TestUtils" type="b2602c69:ProjectViewProjectNode" />
@@ -279,7 +399,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="nhatnguyen" type="462c0819:PsiDirectoryNode" />
-              <item name="initializer" type="462c0819:PsiDirectoryNode" />
+              <item name="kishu" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="TestUtils" type="b2602c69:ProjectViewProjectNode" />
@@ -288,7 +408,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="nhatnguyen" type="462c0819:PsiDirectoryNode" />
-              <item name="kishuhelper" type="462c0819:PsiDirectoryNode" />
+              <item name="nihonsupittsu" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="TestUtils" type="b2602c69:ProjectViewProjectNode" />
@@ -297,7 +417,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="nhatnguyen" type="462c0819:PsiDirectoryNode" />
-              <item name="shibahelper" type="462c0819:PsiDirectoryNode" />
+              <item name="shiba" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="TestUtils" type="b2602c69:ProjectViewProjectNode" />
@@ -306,7 +426,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="nhatnguyen" type="462c0819:PsiDirectoryNode" />
-              <item name="shikokuhelper" type="462c0819:PsiDirectoryNode" />
+              <item name="shikoku" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -520,15 +640,15 @@
       <workItem from="1526627105956" duration="25000" />
       <workItem from="1526627452658" duration="556000" />
       <workItem from="1526871030495" duration="4232000" />
-      <workItem from="1526883536437" duration="884000" />
+      <workItem from="1526883536437" duration="7861000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44717000" />
+    <option name="totallyTimeSpent" value="51694000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1440" y="0" width="1920" height="1080" extended-state="6" />
+    <frame x="1440" y="0" width="1920" height="1080" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -538,13 +658,14 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.45694444" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4568024" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.271875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286991" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -558,7 +679,6 @@
       <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32972974" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292683" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286991" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -601,53 +721,12 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/tech/nhatnguyen/initializer/PageObjectHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/tech/nhatnguyen/initializer/StepHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="25" lean-forward="false" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/tech/nhatnguyen/initializer/Base.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="4" lean-forward="false" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/tech/nhatnguyen/shibahelper/PropertyReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/tech/nhatnguyen/akitahelper/FunctionHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="21" lean-forward="false" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/tech/nhatnguyen/shibahelper/SystemConfiguration.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/tech/nhatnguyen/shiba/SystemConfiguration.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="40" lean-forward="false" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="40" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -660,17 +739,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/tech/nhatnguyen/shibahelper/StringHelper.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/tech/nhatnguyen/shiba/StringHelper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="10" column="31" lean-forward="false" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/tech/nhatnguyen/initializer/HookHelper.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/tech/nhatnguyen/nihonsupittsu/HookHelper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
           <caret line="55" column="52" lean-forward="false" selection-start-line="55" selection-start-column="52" selection-end-line="55" selection-end-column="52" />
@@ -680,7 +759,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/tech/nhatnguyen/initializer/PageObjectHelper.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/tech/nhatnguyen/nihonsupittsu/PageObjectHelper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
@@ -688,7 +767,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/tech/nhatnguyen/initializer/Base.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/tech/nhatnguyen/nihonsupittsu/Base.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="12" column="35" lean-forward="false" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
@@ -696,7 +775,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/tech/nhatnguyen/akitahelper/FunctionHelper.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/tech/nhatnguyen/akita/FunctionHelper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="26" column="43" lean-forward="false" selection-start-line="26" selection-start-column="38" selection-end-line="26" selection-end-column="43" />
@@ -704,17 +783,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/tech/nhatnguyen/shibahelper/SystemConfiguration.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/tech/nhatnguyen/shiba/SystemConfiguration.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="7" column="28" lean-forward="false" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="28" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/tech/nhatnguyen/akitahelper/ActionHelper.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/tech/nhatnguyen/akita/ActionHelper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="615">
           <caret line="49" column="35" lean-forward="false" selection-start-line="49" selection-start-column="23" selection-end-line="49" selection-end-column="35" />
@@ -795,98 +874,9 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="581">
             <caret line="42" column="41" lean-forward="false" selection-start-line="42" selection-start-column="41" selection-end-line="42" selection-end-column="41" />
+            <folding />
           </first_editor>
           <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/tech/nhatnguyen/akitahelper/ActionHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="840">
-          <caret line="56" column="23" lean-forward="false" selection-start-line="56" selection-start-column="23" selection-end-line="56" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/tech/nhatnguyen/akitahelper/FunctionHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-59">
-          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/tech/nhatnguyen/initializer/Base.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/tech/nhatnguyen/initializer/HookHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="24" column="13" lean-forward="false" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/tech/nhatnguyen/initializer/StepHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="9" column="25" lean-forward="false" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/tech/nhatnguyen/initializer/PageObjectHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/tech/nhatnguyen/kishuhelper/EmailHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/tech/nhatnguyen/shibahelper/PropertyReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="6" column="21" lean-forward="false" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/tech/nhatnguyen/shibahelper/SystemConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="15" column="41" lean-forward="false" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -906,24 +896,154 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/tech/nhatnguyen/shikokuhelper/ExcelReader.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/tech/nhatnguyen/shiba/StringHelper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="34" lean-forward="false" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
+        <state relative-caret-position="255">
+          <caret line="17" column="26" lean-forward="false" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1235#1251#0" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/tech/nhatnguyen/shibahelper/StringHelper.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/tech/nhatnguyen/kishu/EmailHelper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="39" lean-forward="false" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
+        <state relative-caret-position="240">
+          <caret line="16" column="36" lean-forward="false" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/tech/nhatnguyen/nihonsupittsu/StepHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="9" column="25" lean-forward="false" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/tech/nhatnguyen/nihonsupittsu/PageObjectHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/tech/nhatnguyen/nihonsupittsu/Base.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/tech/nhatnguyen/shikoku/ExcelReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="49" lean-forward="false" selection-start-line="31" selection-start-column="49" selection-end-line="31" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#1347#1363#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/tech/nhatnguyen/akita/ActionHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="28" lean-forward="false" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/tech/nhatnguyen/akita/FunctionHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="41" lean-forward="false" selection-start-line="31" selection-start-column="41" selection-end-line="31" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/tech/nhatnguyen/shiba/PropertyReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="21" lean-forward="false" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/tech/nhatnguyen/shiba/SystemConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="12" column="23" lean-forward="false" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/tech/nhatnguyen/nihonsupittsu/HookHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="750">
+          <caret line="50" column="22" lean-forward="false" selection-start-line="50" selection-start-column="22" selection-end-line="50" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/tech/nhatnguyen/akita/package-info.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="3" lean-forward="false" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/tech/nhatnguyen/kishu/package-info.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="8" lean-forward="false" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/tech/nhatnguyen/nihonsupittsu/package-info.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="30" lean-forward="false" selection-start-line="1" selection-start-column="30" selection-end-line="1" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/tech/nhatnguyen/shiba/package-info.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="21" lean-forward="false" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/tech/nhatnguyen/shikoku/package-info.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="27" lean-forward="false" selection-start-line="1" selection-start-column="27" selection-end-line="1" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="18" lean-forward="false" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+          <folding />
         </state>
       </provider>
     </entry>
