@@ -23,8 +23,8 @@ Java Automation Test Helper for selenium
 ```
     <dependency>
             <groupId>tech.nhatnguyen</groupId>
-            <artifactId>shepherd</artifactId>
-            <version>1.1.3</version>
+            <artifactId>inu</artifactId>
+            <version>1.1.6</version>
     </dependency>
 ``` 
 
