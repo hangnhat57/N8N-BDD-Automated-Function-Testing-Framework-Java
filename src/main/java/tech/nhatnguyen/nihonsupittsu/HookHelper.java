@@ -71,12 +71,14 @@ public class HookHelper {
 
     private WebDriver Firefox() {
         FirefoxDriverManager.getInstance().arch64().setup();
-        FirefoxOptions ffoption = new FirefoxOptions();
-        ffoption.addArguments(browser_size());
+        FirefoxOptions option = new FirefoxOptions();
+        option.addArguments(browser_size());
+        option.addArguments("--disable-web-security");
+        option.addArguments("--allow-running-insecure-content");
         if (MODE.equals("headless")) {
-            ffoption.addArguments("--headless");
+            option.addArguments("--headless");
         }
-        return new FirefoxDriver(ffoption);
+        return new FirefoxDriver(option);
     }
 
     private WebDriver Chrome() {
@@ -84,6 +86,8 @@ public class HookHelper {
         ChromeOptions option = new ChromeOptions();
         Map<String, Object> preferences = new HashMap<String, Object>();
         option.addArguments(browser_size());
+        option.addArguments("--disable-web-security");
+        option.addArguments("--allow-running-insecure-content");
         if (MODE.equals("headless")) {
             option.addArguments("--headless");
         }
@@ -99,6 +103,8 @@ public class HookHelper {
         if (MODE.equals("headless")) {
             option.addArguments("--headless");
         }
+        option.addArguments("--disable-web-security");
+        option.addArguments("--allow-running-insecure-content");
         return new RemoteWebDriver(new URL("http://localhost:35029/wd/hub"), option);
     }
 
@@ -108,6 +114,8 @@ public class HookHelper {
         if (MODE.equals("headless")) {
             option.addArguments("--headless");
         }
+        option.addArguments("--disable-web-security");
+        option.addArguments("--allow-running-insecure-content");
         return new RemoteWebDriver(new URL("http://localhost:35029/wd/hub"), option);
     }
 
