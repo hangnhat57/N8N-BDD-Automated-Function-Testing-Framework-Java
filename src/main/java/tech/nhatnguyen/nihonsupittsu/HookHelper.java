@@ -29,6 +29,7 @@ public class HookHelper {
     private final String OS = System.getProperty("os.name").toLowerCase();
     private final String MODE = getEnv("BROWSER_MODE");
     private final String ENVIRONMENT = getEnv("ENVIRONMENT");
+    private final String SERVERURL = getEnv("SERVER_URL");
     private final String BROWSERSIZE = browser_size();
 
     public void testInit(Scenario scenario) throws Exception {
@@ -105,7 +106,7 @@ public class HookHelper {
         }
         option.addArguments("--disable-web-security");
         option.addArguments("--allow-running-insecure-content");
-        return new RemoteWebDriver(new URL("http://localhost:35029/wd/hub"), option);
+        return new RemoteWebDriver(new URL("http://"+SERVERURL+"/wd/hub"), option);
     }
 
     private RemoteWebDriver RemoteFirefox() throws Exception {
@@ -116,7 +117,7 @@ public class HookHelper {
         }
         option.addArguments("--disable-web-security");
         option.addArguments("--allow-running-insecure-content");
-        return new RemoteWebDriver(new URL("http://localhost:35029/wd/hub"), option);
+        return new RemoteWebDriver(new URL("http://"+SERVERURL+"/wd/hub"), option);
     }
 
     private String browser_size() {
