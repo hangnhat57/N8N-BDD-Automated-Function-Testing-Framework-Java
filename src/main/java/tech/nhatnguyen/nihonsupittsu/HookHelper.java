@@ -79,6 +79,7 @@ public class HookHelper {
         if (MODE.equals("headless")) {
             option.addArguments("--headless");
         }
+        option.setAcceptInsecureCerts(true);
         return new FirefoxDriver(option);
     }
 
@@ -92,6 +93,7 @@ public class HookHelper {
         if (MODE.equals("headless")) {
             option.addArguments("--headless");
         }
+        option.setAcceptInsecureCerts(true);
         return new ChromeDriver(option);
     }
 
@@ -104,6 +106,7 @@ public class HookHelper {
         if (MODE.equals("headless")) {
             option.addArguments("--headless");
         }
+        option.setAcceptInsecureCerts(true);
         option.addArguments("--disable-web-security");
         option.addArguments("--allow-running-insecure-content");
         return new RemoteWebDriver(new URL("http://"+SERVERURL+"/wd/hub"), option);
@@ -115,6 +118,7 @@ public class HookHelper {
         if (MODE.equals("headless")) {
             option.addArguments("--headless");
         }
+        option.setAcceptInsecureCerts(true);
         option.addArguments("--disable-web-security");
         option.addArguments("--allow-running-insecure-content");
         return new RemoteWebDriver(new URL("http://"+SERVERURL+"/wd/hub"), option);
