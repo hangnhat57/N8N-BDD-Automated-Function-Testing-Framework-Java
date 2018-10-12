@@ -1,4 +1,4 @@
-# Sherpherd Automation
+# N∞N BDD Automated Functional Testing Framework 
 
 Java Automation Test Helper for selenium
 
@@ -10,7 +10,7 @@ Java Automation Test Helper for selenium
  <repositories>
         <repository>
             <id>testutils-mvn-repo</id>
-            <url>https://raw.github.com/hangnhat57/testutils/mvn-repo/</url>
+            <url>https://raw.github.com/hangnhat57/N8N-BDD-Automated-Function-Testing-Framework-Java/mvn-repo/</url>
             <snapshots>
                 <enabled>true</enabled>
                 <updatePolicy>always</updatePolicy>
